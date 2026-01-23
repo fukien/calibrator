@@ -48,6 +48,7 @@
 #include	<math.h>
 #include	<string.h>
 #include	<stdarg.h>
+#include	<unistd.h>
 
 #define VERSION "fukien-alpha"
 
