@@ -1,31 +1,29 @@
-
 /*
  * Calibrator version fukien-alpha
  * originally developed by stefan.manegold@cwi.nl, http://www.cwi.nl/~manegold/Calibrator/
  * currently maintained by huangwentao@u.nus.edu, https://github.com/fukien/calibrator
  *
  * All rights reserved.
- * No warranties.
  *
  * Redistribution and use in source and binary forms, with or without
  * modification, are permitted provided that the following conditions
  * are met:
  *
  * 1. Redistributions of source code must retain the above notice, this list
- *    of conditions and the following disclaimer.
+ * of conditions and the following disclaimer.
  * 2. Redistributions in binary form must reproduce the above notice, this
- *    list of conditions and the following disclaimer in the documentation
- *    and/or other materials provided with the distribution.
+ * list of conditions and the following disclaimer in the documentation
+ * and/or other materials provided with the distribution.
  * 3. All advertising materials mentioning features or use of this software
- *    must display the following acknowledgement:
+ * must display the following acknowledgement:
  *	This product includes software originally developed by
  *	stefan.manegold@cwi.nl, http://www.cwi.nl/~manegold/ 
  *	and currently maintained by
  *	huangwentao@u.nus.edu, https://github.com/fukien/calibrator/
  * 4. Any publication of result obtained by use of this software must
- *    display a reference as follows:
+ * display a reference as follows:
  *	Results produced by Calibrator (version: fukien-alpha)
- *	(huangwentao@u.nus.edu, https://github.com/fukien/calibrator/)
+ *	(Wentao Huang, huangwentao@u.nus.edu, https://github.com/fukien/calibrator/)
  *
  * THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS `AS IS'' AND
  * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
