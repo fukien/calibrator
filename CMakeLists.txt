@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.5.2)
 
-project(calibrator)
+project(calibrator C)
 
 set(BIN_PATH "bin")
 
