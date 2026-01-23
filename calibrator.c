@@ -40,9 +40,7 @@
  * THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-/*
-#include        <unistd.h>
-*/
+
 #include        <stdlib.h>
 #include	<stdio.h>
 #include	<math.h>
@@ -270,7 +268,7 @@ lng** runCache(char *array, lng maxrange, lng minstride, lng MHz, FILE *fp, lng 
 	lng	i, r, x, y, z, range = maxrange, stride = minstride / 2;
 	dbl	f = 0.25;
 	lng	last, time = 0, **result;
-	lng	pgsz = getpagesize();
+	lng	pgsz = sysconf(_SC_PAGESIZE);
 	int	delay;
 
 	if (*maxstride) {
@@ -367,7 +365,7 @@ lng** runTLB(char *array, lng maxrange, lng minstride, lng shift, lng mincacheli
 	lng	range = maxrange, s = minstride / 2, spots = mincachelines / 2;
 	dbl	f = 0.25;
 	lng	tmax, smin, xmin, last, time = 0, **result;
-	lng	pgsz = getpagesize();
+	lng	pgsz = sysconf(_SC_PAGESIZE);
 	int	delay;
 
 	fprintf(stderr, "analyzing TLB latency...\n");
@@ -1109,7 +1107,7 @@ int main(int ac, char **av)
 	lng	**result1, **result2;
 	cacheInfo *cache;
 	TLBinfo	*TLB;
-	lng	align = 0, pgsz  = getpagesize();
+	lng	align = 0, pgsz  = sysconf(_SC_PAGESIZE);
 
 	fprintf(stdout,"\nCalibrator, version: %s\n (currently maintained by huangwentao@u.nus.edu, https://github.com/fukien)\n", VERSION);
 
